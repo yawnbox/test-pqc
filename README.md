@@ -1,6 +1,6 @@
 # test-pqc
 
-Tests OpenSSL 3.5 TLS hybrid key post-quantum/classical key agreement schemes with nginx 1.28.0:
+Tests OpenSSL 3.5 TLS hybrid (post-quantum/classical) key agreement schemes with nginx 1.28.0:
 
 ```
     ssl_protocols TLSv1.3;
