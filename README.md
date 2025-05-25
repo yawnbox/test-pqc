@@ -1,6 +1,6 @@
 # test-pqc
 
-Tests openssl 3.5 post-quantum cryptography (client and server version) with nginx 1.28.0 example config:
+Tests OpenSSL 3.5 TLS hybrid key post-quantum/classical key agreement schemes with nginx 1.28.0:
 
 ```
     ssl_protocols TLSv1.3;
