@@ -7,7 +7,7 @@ Tests openssl 3.5 post-quantum cryptography (client and server version) with ngi
     ssl_conf_command Groups X25519MLKEM768:SecP384r1MLKEM1024:SecP256r1MLKEM768:MLKEM1024:X25519:secp384r1;
     ssl_conf_command Options +ServerPreference;
     ssl_conf_command Options +PrioritizeChaCha;
-    ssl_conf_command Ciphersuites TLS_AEGIS_128L_SHA256:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_256_GCM_SHA384;
+    ssl_conf_command Ciphersuites TLS_CHACHA20_POLY1305_SHA256:TLS_AES_256_GCM_SHA384;
 ```
 
 Results
